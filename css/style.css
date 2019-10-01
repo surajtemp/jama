@@ -1,0 +1,478 @@
+body {
+    font-family: 'Roboto', 'Playfair Display', sans-serif;
+    background-image: url("../assets/bg_block_vector.svg");
+    position: relative;
+    font-weight: 100;
+}
+
+nav ul a,
+nav .brand-logo {
+    color: #444;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.m-r-4 {
+    margin-right: 4px;
+}
+
+.bg-white {
+    background: #fff;
+}
+
+h6 {
+    margin: 0px;
+}
+
+.m-0 {
+    margin: 0px !important;
+}
+
+.m-b-0 {
+    margin-bottom: 0px;
+}
+
+.b-t-1 {
+    border-top: 1px solid rgb(233, 233, 233);
+}
+
+.b-rad-t {
+    border-radius: 4px 4px 0px 0px;
+}
+
+.b-left {
+    border-radius: 4px 0px 0px 4px;
+}
+
+.b-right {
+    border-radius: 0px 4px 4px 0px;
+}
+
+.b-rad-b {
+    border-radius: 0px 0px 4px 4px;
+}
+
+.m-t-20 {
+    margin-top: 20px;
+}
+
+nav ul a {
+    display: inline !important;
+}
+
+nav ul a:hover {
+    background: transparent;
+}
+
+.sidenav-trigger {
+    color: #26a69a;
+}
+
+.start-btn {
+    padding: 8px 15px;
+    border: 1px solid #FFC20E;
+    border-radius: 4px;
+}
+
+.brand-logo-img {
+    max-height: 36px;
+    position: relative;
+    top: 10px;
+}
+
+.Home-section-banner-img {
+    background-image: url("../assets/jama_wealth_banners_3.png");
+    position: relative;
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    border-radius: 0px 0px 0px 30px;
+}
+
+.Home-jama-wealth-section {
+    padding: 90px 0px;
+}
+
+.Jama-tab-card-btn {
+    padding: 15px 20px;
+    font-family: Playfair Display;
+    font-weight: 600;
+    /* background: #fff; */
+    min-height: 77px;
+}
+
+.Jama-tab-card-btn img {
+    float: left;
+    height: 35px;
+}
+
+.Jama-tab-card-btn h6 {
+    margin-left: 52px;
+}
+
+.left-menu-sub-tabs-below-wealth {
+    background: rgba(255, 255, 255, 0.9)
+}
+
+.Build-wealth-tab-btn {
+    background: #1553A5;
+    color: #fff;
+    margin-bottom: 28px;
+    border-radius: 4px;
+}
+
+.Build-wealth-tab-btn .under-line-style:after {
+    content: "";
+    display: block;
+    width: 30%;
+    padding-top: 10px;
+    border-bottom: 2px solid #fff;
+}
+
+.home-right-content-section {
+    margin-left: 6px;
+}
+
+.tabs-right-top-sections {
+    margin-bottom: 26px;
+}
+
+.jama-right-tabs h6 {
+    margin: 0px;
+    text-align: center;
+}
+
+.jama-right-tabs-active {
+    background: #FFC20E;
+}
+
+.jama-right-tabs-active h6 {
+    font-weight: 600;
+}
+
+.jama-right-tabs-active ::after {
+    content: "";
+    display: block;
+    width: 30%;
+    padding-top: 10px;
+    margin: 0 auto;
+    border-bottom: 2px solid #000;
+}
+
+.Jama-home-tab-content-box {
+    background: rgba(255, 255, 255, 0.9);
+    min-height: 241px;
+    border-radius: 4px;
+    padding: 0px 15px;
+}
+
+.Jama-home-tab-content-box p {
+    font-size: 13px;
+    line-height: 20px;
+    color: rgb(80, 80, 80);
+}
+
+.read-more-style {
+    text-decoration: #444;
+    font-weight: 600;
+    color: rgb(10, 10, 10);
+    cursor: pointer;
+}
+
+.jars-section-title-heading h4 {
+    font-family: Playfair Display;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.jars-section-title-heading h4::after {
+    content: "";
+    display: block;
+    width: 5%;
+    padding-top: 20px;
+    margin: 0 auto;
+    border-bottom: 2px solid #000;
+}
+
+.Jars-section-left {
+    position: relative;
+    top: 42px;
+}
+
+.Jars-section-left h5 {
+    font-family: Playfair Display;
+    font-weight: bolder;
+    line-height: 32px;
+}
+
+.Jars-section-left p {
+    color: rgb(126, 126, 126);
+    font-weight: lighter;
+    padding-right: 150px;
+}
+
+.jars-btns {
+    margin-top: 25px;
+}
+
+.jars-btns li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    font-weight: lighter;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.btn-orange {
+    background: #FFC20E;
+    color: #fff;
+}
+
+.btn-outline {
+    border: 1px solid #FFC20E;
+}
+
+.video-section {
+    margin-bottom: 60px;
+}
+
+.video-container {
+    border-radius: 10px;
+}
+
+.jars-btns .no-obigation-style {
+    font-style: italic;
+    padding: 0px;
+}
+
+.jars-section-portfolio {
+    padding: 60px 0px;
+}
+
+.portfolio-img-section img {
+    max-height: 300px;
+    float: right;
+}
+
+.jama-ebook-section {
+    background-image: url("../assets/ebook-bg.jpg");
+    padding: 30px 0px;
+}
+
+.ebook-section-left h6,
+h5 {
+    font-family: Playfair Display;
+    font-weight: bolder;
+}
+
+.btn-download-ebook {
+    padding: 0px 28px;
+    background: #FFC20E;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.btn-download-ebook:hover {
+    background: #FFC20E;
+}
+
+.jama-ebook-section {
+    margin-bottom: 90px;
+    margin-top: 20px;
+}
+
+.jama-testimonials-section {
+    background: #1553A5;
+}
+
+.testimonials-title-style {
+    margin-bottom: 20px !important;
+    margin-top: 0px !important;
+    color: #fff;
+}
+
+.testimonials-title-style::after {
+    border-bottom: 2px solid #fff !important;
+}
+
+.jama-testimonials-cards {
+    background: #fff;
+    min-height: 250px;
+    border-radius: 4px;
+    padding: 10px;
+    position: relative;
+    margin-top: 25px;
+}
+
+.testimonial-text {
+    font-family: Playfair Display;
+    color: #000;
+}
+
+.testimonial-text p {
+    font-weight: 100;
+}
+
+.profile-pic {
+    height: 70px;
+}
+
+.testimonial-text h6 {
+    margin-bottom: 5px;
+    color: #1553A5;
+}
+
+.testimonial-text p {
+    color: rgb(155, 155, 155);
+}
+
+.testimonial-description h6 {
+    font-family: Roboto;
+    font-weight: bolder;
+}
+
+.testimonial-description p {
+    font-weight: 100;
+}
+
+.testimonial-more-vert-btn {
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.jama-testimonials-section {
+    padding: 50px 0px;
+}
+
+.See-more-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.testimonial-see-more-btn {
+    background: #fff;
+    color: #1553A5;
+}
+
+.testimonial-see-more-btn:hover {
+    background: #fff;
+}
+
+.research-invest-section {
+    padding: 70px 0px;
+}
+
+.research-invest-section-content {
+    text-align: center;
+    font-weight: 100;
+}
+
+.research-invest-section-content h4 {
+    font-family: Playfair Display;
+    font-weight: 600;
+}
+
+.research-invest-section-content p {
+    color: rgb(126, 126, 126);
+    margin: 20px 0px;
+}
+
+.research-invest-btn-section {
+    margin-top: 35px;
+}
+
+.research-btn {
+    padding: 10px 15px;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+
+.Curator-card-section {
+    box-shadow: 0 8px 10px #e8e8e8;
+    background: #fff;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.curators-profile-title h6 {
+    font-family: Playfair Display;
+    font-weight: 600;
+    color: #1553A5;
+    margin-bottom: 5px;
+}
+
+.curators-profile-title {
+    padding: 10px 10px;
+    border: 1px solid #1553A5;
+    border-radius: 8px;
+}
+
+.curators-profile-title img {
+    max-height: 14px;
+    margin-left: 7px;
+    position: relative;
+    top: 2px;
+}
+
+.SEBI-style {
+    font-size: 10px;
+    background: #FFC20E;
+    padding: 2px 4px;
+    margin-top: 5px;
+}
+
+.curator-description {
+    padding-left: 12px;
+}
+
+.curator-description-li {
+    list-style-type: none;
+    position: relative;
+    font-size: 13px;
+}
+
+.page-footer-section {
+    background: #FFC20E;
+    color: #000;
+    margin-top: 100px;
+}
+
+
+/* 
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+} */
