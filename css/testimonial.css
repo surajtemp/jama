@@ -1,186 +1,92 @@
 body {
-    font-family: 'Roboto', 'Playfair Display', sans-serif;
-    background-image: url("../assets/bg_block_vector.svg");
-    position: relative;
-    font-weight: 100;
+    background: transparent !important;
 }
 
-nav ul a,
-nav .brand-logo {
-    color: #444;
-}
-
-.m-t-20 {
-    margin-top: 20px;
-}
-
-.no-padding {
-    padding: 0px;
-}
-
-p {
-    font-size: 14px;
-    line-height: 20px;
-}
-
-.m-r-4 {
-    margin-right: 4px;
-}
-
-.bg-white {
-    background: #fff;
-}
-
-h6 {
-    margin: 0px;
-}
-
-.m-0 {
-    margin: 0px !important;
-}
-
-.m-b-0 {
-    margin-bottom: 0px;
-}
-
-.b-t-1 {
-    border-top: 1px solid rgb(233, 233, 233);
-}
-
-.b-rad-t {
-    border-radius: 4px 4px 0px 0px;
-}
-
-.b-left {
-    border-radius: 4px 0px 0px 4px;
-}
-
-.b-right {
-    border-radius: 0px 4px 4px 0px;
-}
-
-.b-rad-b {
-    border-radius: 0px 0px 4px 4px;
-}
-
-.m-t-20 {
-    margin-top: 20px;
-}
-
-nav ul a {
-    display: inline !important;
-}
-
-nav ul a:hover {
-    background: transparent;
-}
-
-.sidenav-trigger {
-    color: #26a69a;
-}
-
-.start-btn {
-    padding: 8px 15px;
-    border: 1px solid #FFC20E;
-    border-radius: 4px;
-}
-
-.brand-logo-img {
-    max-height: 36px;
-    position: relative;
-    top: 10px;
-}
-
-.jama-testimonials-section {}
-
-.testimonials-title-style {
+.testimonials-heading-title {
     margin-bottom: 20px !important;
     margin-top: 0px !important;
     color: #000;
 }
 
-.testimonials-title-style::after {
+.testimonials-heading-title i {
+    float: right;
+    cursor: pointer;
+}
+
+.testimonials-heading-title::after {
     border-bottom: 2px solid #000 !important;
 }
 
-.jama-testimonials-cards {
+.testimonials-cards {
     background: #fff;
     min-height: 250px;
     border-radius: 4px;
     padding: 10px;
     position: relative;
     margin-top: 25px;
+    box-shadow: 0px 0px 10px 0px #e6e6e6;
 }
 
+
+}
 .testimonial-text {
     font-family: Playfair Display;
     color: #000;
 }
-
 .testimonial-text p {
     font-weight: 100;
 }
-
 .profile-pic {
     height: 70px;
 }
-
 .testimonial-text h6 {
     margin-bottom: 5px;
     color: #1553A5;
 }
-
 .testimonial-text p {
     color: rgb(155, 155, 155);
 }
-
 .testimonial-description h6 {
     font-family: Roboto;
     font-weight: bolder;
 }
-
 .testimonial-description p {
     font-weight: 100;
 }
-
 .testimonial-more-vert-btn {
     position: absolute;
     top: 5px;
     right: 0;
 }
-
 .jama-testimonials-section {
     padding: 50px 0px;
     background: #fff !important;
 }
-
-.See-more-btn {
+.load-more-btn {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
 }
-
-.testimonial-see-more-btn {
-    background: #fff;
+.testimonial-load-more-btn {
+    background: transparent;
     color: #1553A5;
+    border: 1px solid #1553A5;
+    border-radius: 2px;
+    text-transform: none;
 }
-
-.testimonial-see-more-btn:hover {
+.testimonial-load-more-btn:hover {
     background: #fff;
 }
-
 .page-footer-section {
     background: #FFC20E;
     color: #000;
     margin-top: 100px;
     padding-top: 25px;
 }
-
 .footer-titles {
     font-family: Playfair Display;
     font-weight: 600;
     color: #1D294A;
 }
-
 .footer-titles::after {
     content: "";
     display: block;
@@ -188,16 +94,13 @@ nav ul a:hover {
     padding-top: 10px;
     border-bottom: 2px solid #000;
 }
-
 .page-footer-section li a {
     font-size: 14px;
     color: #2b2b2b;
 }
-
 .footer-download-sections {
     margin-top: 25px;
 }
-
 form.example input[type=text] {
     border: 1px solid grey;
     float: left;
@@ -208,7 +111,6 @@ form.example input[type=text] {
     margin-right: 10px;
     color: #1D294A;
 }
-
 form.example button {
     float: left;
     padding: 14px;
@@ -219,28 +121,24 @@ form.example button {
     border-radius: 2px;
     font-family: Playfair Display;
 }
-
 form.example button:hover {
     background: rgb(243, 243, 243);
 }
-
 form.example::after {
     content: "";
     clear: both;
     display: table;
 }
-
 ::placeholder {
     /* Firefox, Chrome, Opera */
+    
     color: rgb(94, 94, 94);
 }
-
 @media only screen and (max-width: 600px) {
     .jars-btns li {
         padding: 10px 20px;
     }
 }
-
 
 /* 
 @media only screen and (max-width: 992px) {

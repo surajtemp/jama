@@ -1,0 +1,72 @@
+.page-footer-section {
+    background: #FFC20E;
+    color: #000;
+    margin-top: 100px;
+    padding-top: 25px;
+}
+
+.footer-titles {
+    font-family: Playfair Display;
+    font-weight: 600;
+    color: #1D294A;
+}
+
+.footer-titles::after {
+    content: "";
+    display: block;
+    width: 25%;
+    padding-top: 10px;
+    border-bottom: 2px solid #000;
+}
+
+.page-footer-section li a {
+    font-size: 14px;
+    color: #2b2b2b;
+}
+
+.footer-download-sections {
+    margin-top: 25px;
+}
+
+form.example input[type=text] {
+    border: 1px solid grey;
+    float: left;
+    width: 45%;
+    background: transparent;
+    padding: 0px 6px;
+    border-radius: 2px;
+    margin-right: 10px;
+    color: #1D294A;
+}
+
+form.example button {
+    float: left;
+    padding: 14px;
+    background: rgb(255, 255, 255);
+    color: rgb(80, 80, 80);
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    font-family: Playfair Display;
+}
+
+form.example button:hover {
+    background: rgb(243, 243, 243);
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+::placeholder {
+    /* Firefox, Chrome, Opera */
+    color: rgb(94, 94, 94);
+}
+
+@media only screen and (max-width: 600px) {
+    .jars-btns li {
+        padding: 10px 20px;
+    }
+}

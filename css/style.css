@@ -91,6 +91,17 @@ nav ul a:hover {
     top: 10px;
 }
 
+.read-more-btn-style {
+    background: #FFC20E;
+    color: #000;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 2px;
+    font-family: Playfair Display;
+    cursor: pointer;
+    font-size: 16px;
+}
+
 .Home-section-banner-img {
     background-image: url("../assets/jama_wealth_banners_3.png");
     position: relative;
@@ -181,7 +192,7 @@ nav ul a:hover {
 
 .Jama-home-tab-content-box {
     background: rgba(255, 255, 255, 0.9);
-    min-height: 241px;
+    min-height: 246px;
     border-radius: 4px;
     padding: 0px 15px;
     margin-top: 26px;
@@ -285,14 +296,15 @@ nav ul a:hover {
 .ebook-section-left h6,
 h5 {
     font-family: Playfair Display;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .btn-download-ebook {
     padding: 0px 28px;
     background: #FFC20E;
-    border-radius: 50px;
+    border-radius: 4px;
     margin-top: 20px;
+    float: right;
 }
 
 .btn-download-ebook:hover {
@@ -558,3 +570,12 @@ form.example::after {
 footer.page-footer {
     margin: 0;
 } */
+
+.homepage-below-feature-section-list {
+    position: relative;
+    top: -37px;
+}
+
+.features-icons-images img {
+    max-height: 95px;
+}
