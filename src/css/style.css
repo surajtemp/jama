@@ -366,7 +366,7 @@ nav ul a:hover{
     background-size: cover;
 }
 
-.ebook-section-left h5, h4 {
+.ebook-section-left h5 {
     font-family: Playfair Display;
     font-weight: bold;
 }
@@ -639,6 +639,17 @@ form.example::after {
     /* Firefox, Chrome, Opera */
     color: rgb(94, 94, 94);
 }
+
+
+.box-content-section{
+    min-height: 90vh !important;
+    display: flex;
+}
+.box-content-inner-section{
+    display: grid;
+}
+
+
 
 @media only screen and (max-width: 600px) {
     .jars-btns li {

@@ -18,6 +18,7 @@ import BuildWealthprudenceinfo from './Component/BuildWealthprudenceinfo';
 import Values from './Component/Values';
 import Investphilosphyinfo from './Component/Investphilosphyinfo';
 import IndiasEconomyinfo from './Component/IndiasEconomyinfo';
+import Jamaadvisorypage from './Component/Jamaadvisorypage';
 
 
 
@@ -42,6 +43,7 @@ const routing = (
       <Route path="/Investphilosphyinfo" component={Investphilosphyinfo} />
       <Route path="/IndiasEconomyinfo" component={IndiasEconomyinfo} />
       <Route path="/HowtoAlocateinfo" component={HowJamaWorksInfo} />
+      <Route path="/Jamaadvisorypage" component={Jamaadvisorypage} />
     </Switch>
     {/* </BrowserRouter> */}
   </Router>

@@ -1,0 +1,81 @@
+.jamaadvisory-left-content{
+    padding-top: 20%;
+}
+.jamaadvisory-left-content h4{
+    font-family: Playfair Display;        
+    margin-bottom: 30px;
+}   
+.jamaadvisory-left-content p{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+.jamadvisory-img-right{
+    max-width: 70% !important;
+    height: auto !important;
+    float: right;    
+}
+
+.jamadvisory-img-right img{
+    padding-top: 20%;
+}
+
+.jama-advisory-toprow{
+    padding: 100px 0px;
+    min-height: 90vh;
+}
+.clean-section-text{
+    background: #FFB300;    
+    text-align: center;
+    padding: 10px 0px !important;
+}
+.clean-section-text h5{
+    margin: 0px;
+    font-weight: bold !important;
+    font-size: 20px;
+}
+.clean-section-list-content-section{
+    background: #004396;    
+    color: #fff;
+    padding: 22px 0px !important;
+}
+.list-text li{
+    line-height: 21px;
+    padding: 8px 0px;
+}
+.Key-strength-title{
+    text-align: center;
+       
+}
+.Key-strength-title p{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+.Key-strength-title h4{
+    font-family: Playfair Display; 
+    font-weight: bold;
+}
+.Key-strength-title h4::after{
+    content: "";
+    display: block;
+    width: 5%;
+    padding-top: 20px;
+    margin: 0 auto;
+    border-bottom: 2px solid #000;
+}
+.jama-key-stats-img{
+    padding: 25px 0px;
+}
+.bold-text{
+    font-weight: bold;
+    color: #000;
+}
+.blue-text{
+    color: #004396;
+    font-weight: bold;
+}
+.text-white-btn{
+    color: #fff !important;
+}
+.right-align-text{
+    text-align: right;
+}

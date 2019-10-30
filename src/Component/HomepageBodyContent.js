@@ -78,7 +78,7 @@ export class HomepageBodyContent extends Component {
 
                   <div class="jars-btns">
                     <li class="btn-orange">Contact Advisor</li>
-                    <li class="btn-outline">Know more</li>
+                    <Link to="/Jamaadvisorypage"> <li class="btn-outline">Know more</li> </Link>
                   </div>
                 </div>
               </div>

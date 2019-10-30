@@ -48,8 +48,8 @@ body {
 }
 
 .Aboutus-img-right img {
-    height: auto;
-    min-height: 500px;
+    width: auto;
+    height: 400px;
 }
 @media only screen and (max-width: 600px) {
     .Aboutus-img-right img {
