@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', 'Playfair Display', sans-serif;
+    background: white !important;
+    position: relative;
+    font-weight: 100;
+}
+
+.back-btn-section-row {
+    padding-top: 120px;
+}
+
+.back-btn-section-row img {
+    height: 26px;
+}
+
+.how-jama-works-content {
+    padding: 45px 0px;
+}
+
+.jars-section-title-heading {
+    margin-bottom: 60px;
+}
+
+.about-philosophy-left-content {
+    padding-top:150%;
+}
+
+.about-philosophy-left-content h4 {
+    font-family: Playfair Display;
+    font-weight: bold;
+    line-height: 32px;
+    color: #1D294A;
+    margin-bottom: 25px;
+}
+
+.about-philosophy-left-content h4::after {
+    content: "";
+    display: block;
+    width: 10%;
+    padding-top: 10px;
+    border-bottom: 2px solid #000;
+}
+
+.about-philosophy-left-content p {
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.Aboutus-img-right img {
+    height: auto;
+    min-height: 500px;
+}
+@media only screen and (max-width: 600px) {
+    .Aboutus-img-right img {
+        height: auto;
+        width: 100%;
+    }
+}

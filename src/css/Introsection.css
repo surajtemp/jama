@@ -1,0 +1,64 @@
+.intro-section-bg{
+    background-image: url("../assets/introbgimg.png");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    border-bottom: 4px solid #FFC20E;
+    position: relative;
+    top: 56px;
+    
+}
+.intro-section-content{
+    width: 90%;
+    margin: auto;
+    padding: 100px 0px 160px 0px;
+}
+.banner-para-list{
+    background: #1553A5;
+    border-radius: 4px;
+    margin: 25px 0px;
+    width: fit-content;
+}
+.divider-line{
+    border-bottom: 0.02rem solid #FFC20E;
+}
+.banner-para-list li{
+    padding: 8px 20px;
+    color: #FFC20E;    
+    font-size: 18px;
+}
+
+.intro-section-content-text{
+    margin-bottom: 25px;
+}
+
+.jars-btns li {
+    margin-top: 26px;
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    font-weight: lighter;
+    padding: 18px 34px;
+    cursor: pointer;
+}
+
+.btn-orange {
+    background: #FFC20E;
+    color: #000;
+}
+
+.btn-outline {
+    border: 1px solid #FFC20E;
+}
+
+.close-div-btn{
+    margin-right: 15px;
+    float: right;
+    margin-top: 20px;
+}
+.close-div-btn i{
+    cursor: pointer;
+    margin: 15px;
+}
+.MuiButton-root:hover {
+    background: transparent !important;
+}
