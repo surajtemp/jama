@@ -8,7 +8,7 @@ export class Downladebook extends Component {
             <div>
                 <div class="jama-ebook-section">
                     <div class="container w-percent-90">
-                        <div class="row m-0">
+                        <div class="row m-0 valign-wrapper">
                             <div class="col s12 m8">
                                 <div class="ebook-section-left">
                                     <h5>Download eBook:</h5>

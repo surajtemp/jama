@@ -7,12 +7,16 @@ import howjamawealthimg from '../assets/how-jama-wealth-img.svg';
 import Footer from './Footer';
 import Header from './Header';
 import Downladebook from './Downladebook';
-
-
+import WOW from 'wowjs';
+import aboutimg from '../assets/aboutimg.svg';
 
 
 
 export class Investphilosphyinfo extends Component {
+    componentDidMount() {
+        new WOW.WOW().init();
+    window.scrollTo(0, 0);
+    }
     render() {
         return (
             <div>
@@ -26,7 +30,7 @@ export class Investphilosphyinfo extends Component {
                     </div>
 
                     <div class="container how-jama-works-content w-percent-90">
-                        <div class="row">
+                        <div class="row valign-wrapper">
                             <div class="col s12 m5">
                                 <div class="about-philosophy-left-content">
                                     <h4>Our Investment philosophy</h4>
@@ -40,16 +44,14 @@ export class Investphilosphyinfo extends Component {
 
                             <div class="col s12 m7">
                                 <div class="Aboutus-img-right right-align">
-                                    <img class=" responsive-img" src={howjamawealthimg} />
+                                    <img class=" responsive-img" src={aboutimg} />
                                 </div>
                             </div>
                         </div>
 
                     </div>
                 </div>
-
-                <Downladebook />
-
+                
                 <div class=" research-invest-section ">
                     <div class=" row ">
                         <div class=" col s12 m6 offset-m3 ">
@@ -61,7 +63,7 @@ export class Investphilosphyinfo extends Component {
                                     took a galley
                                         of type and scrambled it to make a type specimen book</p>
                                 <div class=" research-invest-btn-section ">
-                                    <a class=" btn-orange research-btn ">Contact Advisor</a>
+                                <a class="waves-effect waves-light btn btn-large btn-orange m-r-15">Contact Advisor</a> 
                                 </div>
                             </div>
                         </div>

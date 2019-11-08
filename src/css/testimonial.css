@@ -24,7 +24,8 @@ body {
     padding: 25px;
     position: relative;
     margin-top: 25px;
-    box-shadow: 0px 0px 10px 0px #e6e6e6;
+    box-shadow: 0 6px 13px #f3f3f3;
+    border: 1px solid #e2e2e2;
     
 }
 
@@ -51,6 +52,7 @@ body {
 }
 .testimonial-description p {
     font-weight: 100;
+    color: #757575;
 }
 .testimonial-more-vert-btn {
     position: absolute;
@@ -75,6 +77,7 @@ body {
     font-family: Playfair Display;
     font-size: 18px !important;
     border: 1px solid #1553A5;
+    box-shadow: none !important;
 }
 .testimonial-load-more-btn:hover {
     background: #fff;

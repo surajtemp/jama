@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import '../css/style.css';
 import InvestPhilosphy from './InvestPhilosphy';
 import feature1 from '../assets/feature1.JPG';
-import Jargraph from '../assets/Jargraph.PNG';
+import Jargraph from '../assets/Jargraph.png';
 import Group2284 from '../assets/Group 2284.svg';
 import Downladebook from './Downladebook';
 import profile from '../assets/profile.PNG';
@@ -16,10 +16,10 @@ import Group10 from '../assets/Group10.svg';
 import Group11 from '../assets/Group11.svg';
 import Group12 from '../assets/Group12.svg';
 import Group13 from '../assets/Group13.svg';
+import niftimg from '../assets/niftimg.png';
 import homegraph from '../assets/homegraph.svg';
 import videosectionbg from '../assets/videosectionbg.svg';
 import testimonialbrcard from '../assets/testimonial-brcard.svg';
-
 
 
 
@@ -29,78 +29,137 @@ export class HomepageBodyContent extends Component {
     return (
       <div class="homepage-body-bg">
 
-        <div class="container homepage-below-feature-section-list w-percent-90">
-          <div class="row">
-            <div class="col m2 lg2">
-              <div class="features-icons-images center-align">
-                <img src={nocusmoney} />
-              </div>
-            </div>
-            <div class="col m2 lg2">
-              <div class="features-icons-images center-align">
-                <img src={nocustomshare} />
-              </div>
-            </div>
-            <div class="col m2 lg2">
-              <div class="features-icons-images center-align">
-                <img src={Group10} />
-              </div>
-            </div>
-            <div class="col m2 lg2">
-              <div class="features-icons-images center-align">
-                <img src={Group11} />
-              </div>
-            </div>
-            <div class="col m2 lg2">
-              <div class="features-icons-images center-align">
-                <img src={Group12} />
-              </div>
-            </div>
-            <div class="col m2 lg2">
-              <div class="features-icons-images center-align">
-                <img src={Group13} />
-              </div>
-            </div>
-          </div>
-        </div>
+        <FeatureSection />
 
         <div class="jars-section">
-          <div class="container w-percent-90">
+          <div class="container w-percent-90 ">
             <div class="jars-section-title-heading">
-              <h3> <b>J</b>ama <b>A</b>dvisory & <b>R</b>esearch on <b>S</b>tocks <b>(JARS)</b> </h3>
+              {/* <h4> JARS' Model Portfolio Has Delivered Outsized Returns </h4> */}
             </div>
-            <div class="row">
-              <div class="col s12 m6">
+            <div class="row valign-wrapper">
+              <div class="col m12 l6 no-padding">
                 <div class="Jars-section-left">
-                  <h4>Lorem Ipsum is simply dummy text of the printing</h4>
+                  <h4>JARS fares better than other assets classes</h4>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                                     Ipsum has been the industry's standard</p>
-
                   <div class="jars-btns">
-                    <li class="btn-orange">Contact Advisor</li>
-                    <Link to="/Jamaadvisorypage"> <li class="btn-outline">Know more</li> </Link>
+                    <a class="waves-effect waves-light btn btn-large btn-orange m-r-15">Contact Advisor</a>
+                    <Link to="/Jamaadvisorypage">  <a class="waves-effect waves-light btn btn-large btn-outline">Know more</a></Link>
                   </div>
                 </div>
               </div>
 
-              <div class="col s12 m6">
-                <div class="Jar-graph-img">
-                  <img src={homegraph} />
+              <div class="col m12 l6 no-padding">
+                <div class="Jar-graph-img wow fadeInRight">
+                  <img src={Jargraph} />
                 </div>
               </div>
             </div>
 
+            <div class="row valign-wrapper">
+              <div class="col m12 l6">
+                <div class="Jar-graph-img wow fadeInLeft">
+                  <img src={niftimg} />
+                </div>
+              </div>
+              <div class="col m12 l6 no-padding">
+                <div class="Jars-section-left">
+                  <h4>JARS vs Nifty Total Returns Index</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard</p>
+                  <div class="jars-btns">
+                    <a class="waves-effect waves-light btn btn-large btn-orange m-r-15">Contact Advisor</a>
+                    <Link to="/Jamaadvisorypage">  <a class="waves-effect waves-light btn btn-large btn-outline">Know more</a></Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="jars-section Wealth-curated-section">
+          <div class="container w-percent-90">
+            <div class="jars-section-title-heading">
+              <h4>Your Wealth Advisors</h4>
+            </div>
+            <div class="row">
+              <div class="col s12 m6">
+                <div class="Curator-card-section wow fadeInUp">
+                  <div class="row valign-wrapper">
+                    <div class="col s3 no-padding">
+                      <img class="curators-profile-img responsive-img" src={Ram2x} />
+                    </div>
+                    <div class="col s9 no-padding">
+                      <div class="curators-profile-title">
+                        <h5>Ram Kalyan Medury</h5>
+                        <h6 class="m-0">Founder & Ceo <span><img
+                          src={linkedin} /></span>
+                        </h6>
+                        {/* <p class="SEBI-style">SEBI Registered Investment Advisor INA 200006725</p> */}
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row m-b-0">
+                    <div class="curator-description">
+                      <ul class="m-0">
+                        <li class="curator-description-li">Ex CXO at BFSI Majors, Fin Services
+                                        Leader at Infosys</li>
+                        <li class="curator-description-li">Ex Consultant, Global Fortune 100 Firm in
+                                        Financial Services & Investment Advisory</li>
+                        <li class="curator-description-li">SEBI Registered Investment Advisor</li>
+                        <li class="curator-description-li">PGDM from 11M Bangalore</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col s12 m6">
+                <div class="Curator-card-section wow fadeInUp">
+
+                  <div class="row valign-wrapper">
+                    <div class="col s3 no-padding">
+                      <img class="curators-profile-img responsive-img" src={Manoj2x} />
+                    </div>
+                    <div class="col s9 no-padding">
+                      <div class="curators-profile-title">
+                        <h5>Manoj Trivedi</h5>
+                        <h6 class="m-0">Research & Advisory Head <span><img
+                          src={linkedin} /></span></h6>
+                        {/* <p class="SEBI-style">SEBI Registered Investment Advisor INA 200006725</p> */}
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row m-b-0">
+                    <div class="curator-description">
+                      <ul class="m-0">
+                        <li class="curator-description-li">Ex CXO at BFSI Majors, Fin Services
+                                        Leader at Infosys</li>
+                        <li class="curator-description-li">Ex Consultant, Global Fortune 100 Firm in
+                                        Financial Services & Investment Advisory</li>
+                        <li class="curator-description-li">SEBI Registered Investment Advisor</li>
+                        <li class="curator-description-li">PGDM from 11M Bangalore</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="jars-section video-section">
           <div class="container w-percent-90">
             <div class="jars-section-title-heading">
-              <h3>What does Our Experts Say</h3>
+              <h4>Hear From The Wealth Advisor</h4>
             </div>
             <div class="row">
-              <div class="col m8 s12 offset-m2">
-                <div class="video-container">
+              <div class="col m8 s12 offset-m2 no-padding">
+                <div class="video-container wow fadeInUp">
                   <iframe width="560" height="315"
                     src="https://www.youtube-nocookie.com/embed/fPt-kHmC-hY?controls=0" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -117,7 +176,7 @@ export class HomepageBodyContent extends Component {
 
         <div class="jars-section-portfolio">
           <div class="container w-percent-90">
-            <div class="row">
+            <div class="row valign-wrapper">
               <div class="col s12 m6">
                 <div class="Jars-section-left">
                   <h4>Get your portfolio Health <br></br> Checkup Now</h4>
@@ -126,15 +185,13 @@ export class HomepageBodyContent extends Component {
                             unknown printer</p>
 
                   <div class="jars-btns">
-                    <li class="btn-orange">Contact Advisor</li>
-                    <li class="no-obigation-style">No Obigations</li>
+                    <a class="waves-effect waves-light btn btn-large btn-orange m-r-15">Contact Advisor</a>                    
                   </div>
                 </div>
               </div>
 
               <div class="col s12 m6">
-                <div class="portfolio-img-section">
-                  {/* <img class="responsive-img" src="./assets/Group 2284.svg"> */}
+                <div class="portfolio-img-section wow fadeInRight">
                   <img src={Group2284} />
                 </div>
               </div>
@@ -143,16 +200,16 @@ export class HomepageBodyContent extends Component {
           </div>
         </div>
 
-        <Downladebook />
+
 
         <div class="jama-testimonials-section">
           <div class="container w-percent-90">
             <div class="jars-section-title-heading">
-              <h3 class="testimonials-title-style">Testimonials</h3>
+              <h4 class="testimonials-title-style">Testimonials</h4>
             </div>
             <div class="row m-0">
-              <div class="col s12 m4">
-                <div class="jama-testimonials-cards">
+              <div class="col m6 l4">
+                <div class="jama-testimonials-cards wow fadeInUp" data-wow-delay="0.1s">
                   <div class="Testimonial-profile">
                     <div class="row valign-wrapper testimonial-section-profile-details">
                       <div class="testimonial-pic-section">
@@ -182,8 +239,8 @@ export class HomepageBodyContent extends Component {
                 </div>
               </div>
 
-              <div class="col s12 m4">
-                <div class="jama-testimonials-cards">
+              <div class="col m6 l4">
+                <div class="jama-testimonials-cards wow fadeInUp" data-wow-delay="0.2s">
                   <div class="Testimonial-profile">
                     <div class="row valign-wrapper testimonial-section-profile-details">
                       <div class="testimonial-pic-section">
@@ -213,8 +270,8 @@ export class HomepageBodyContent extends Component {
                 </div>
               </div>
 
-              <div class="col s12 m4">
-                <div class="jama-testimonials-cards">
+              <div class="col m6 l4">
+                <div class="jama-testimonials-cards wow fadeInUp" data-wow-delay="0.3s">
                   <div class="Testimonial-profile">
                     <div class="row valign-wrapper testimonial-section-profile-details">
                       <div class="testimonial-pic-section">
@@ -244,8 +301,8 @@ export class HomepageBodyContent extends Component {
                 </div>
               </div>
 
-              <div class="col s12 m4">
-                <div class="jama-testimonials-cards">
+              <div class="col m6 l4">
+                <div class="jama-testimonials-cards wow fadeInUp" data-wow-delay="0.6s">
                   <div class="Testimonial-profile">
                     <div class="row valign-wrapper testimonial-section-profile-details">
                       <div class="testimonial-pic-section">
@@ -275,8 +332,8 @@ export class HomepageBodyContent extends Component {
                 </div>
               </div>
 
-              <div class="col s12 m4">
-                <div class="jama-testimonials-cards">
+              <div class="col m6 l4">
+                <div class="jama-testimonials-cards wow fadeInUp" data-wow-delay="0.7s">
                   <div class="Testimonial-profile">
                     <div class="row valign-wrapper testimonial-section-profile-details">
                       <div class="testimonial-pic-section">
@@ -306,8 +363,8 @@ export class HomepageBodyContent extends Component {
                 </div>
               </div>
 
-              <div class="col s12 m4">
-                <div class="jama-testimonials-cards">
+              <div class="col m6 l4">
+                <div class="jama-testimonials-cards wow fadeInUp" data-wow-delay="0.8s">
                   <div class="Testimonial-profile">
                     <div class="row valign-wrapper testimonial-section-profile-details">
                       <div class="testimonial-pic-section">
@@ -356,7 +413,7 @@ export class HomepageBodyContent extends Component {
                     the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
                         of type and scrambled it to make a type specimen book</p>
                 <div class="research-invest-btn-section">
-                  <a class="btn-orange research-btn">Contact Advisor</a>
+                  <a class="waves-effect waves-light btn btn-large btn-orange m-r-15">Contact Advisor</a> 
                 </div>
               </div>
             </div>
@@ -364,84 +421,6 @@ export class HomepageBodyContent extends Component {
         </div>
 
 
-        <div class="jars-section video-section">
-          <div class="container w-percent-90">
-            <div class="jars-section-title-heading">
-              <h3>Our Wealth Curators</h3>
-            </div>
-            <div class="row">
-              <div class="col s12 m6">
-                <div class="Curator-card-section">
-                  {/* <div class="wealth-curators">
-                    <img src={testimonialbrcard} />
-                  </div> */}
-
-                  <div class="row">
-                    <div class="col s3 no-padding">
-                      {/* <img class="curators-profile-img responsive-img" src="./assets/Ram@2x.png" /> */}
-                      <img class="curators-profile-img responsive-img" src={Ram2x} />
-                    </div>
-                    <div class="col s9 no-padding">
-                      <div class="curators-profile-title">
-                        <h6>Ram Kalyan Medury</h6>
-                        <p class="m-0">Founder & Ceo <span><img
-                          src={linkedin} /></span>
-                        </p>
-                        <p class="SEBI-style">SEBI Registered Investment Advisor INA 200006725</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="row m-b-0">
-                    <div class="curator-description">
-                      <ul class="m-0">
-                        <li class="curator-description-li">> &nbsp Ex CXO at BFSI Majors, Fin Services
-                                        Leader at Infosys</li>
-                        <li class="curator-description-li">> &nbsp Ex Consultant, Global Fortune 100 Firm in
-                                        Financial Services & Investment Advisory</li>
-                        <li class="curator-description-li">> &nbsp SEBI Registered Investment Advisor</li>
-                        <li class="curator-description-li">> &nbsp > PGDM from 11M Bangalore</li>
-                      </ul>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-              <div class="col s12 m6">
-                <div class="Curator-card-section">
-
-                  <div class="row">
-                    <div class="col s3 no-padding">
-                      <img class="curators-profile-img responsive-img" src={Manoj2x} />
-                    </div>
-                    <div class="col s9 no-padding">
-                      <div class="curators-profile-title">
-                        <h6>Manoj Trivedi</h6>
-                        <p class="m-0">Research & Advisory Head <span><img
-                          src={linkedin} /></span></p>
-                        <p class="SEBI-style">SEBI Registered Investment Advisor INA 200006725</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="row m-b-0">
-                    <div class="curator-description">
-                      <ul class="m-0">
-                        <li class="curator-description-li">> &nbsp Ex CXO at BFSI Majors, Fin Services
-                                        Leader at Infosys</li>
-                        <li class="curator-description-li">> &nbsp Ex Consultant, Global Fortune 100 Firm in
-                                        Financial Services & Investment Advisory</li>
-                        <li class="curator-description-li">> &nbsp SEBI Registered Investment Advisor</li>
-                        <li class="curator-description-li">> &nbsp > PGDM from 11M Bangalore</li>
-                      </ul>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     )
   }
@@ -450,3 +429,48 @@ export class HomepageBodyContent extends Component {
 export default HomepageBodyContent
 
 
+
+function FeatureSection() {
+  return (
+    <div>
+      <div class="container homepage-below-feature-section-list w-percent-90">
+        <div class="row Feature-section-title center-align">          
+            <h5>An investment model on clean, that you will be surprised</h5>          
+        </div>
+        <div class="row">
+          <div class="col s4 m2 lg2">
+            <div class="features-icons-images center-align wow fadeInUp" data-wow-delay="0.1s">
+              <img class="responsive-img" src={nocusmoney} />
+            </div>
+          </div>
+          <div class="col s4 m2 lg2">
+            <div class="features-icons-images center-align wow fadeInUp" data-wow-delay="0.2s">
+              <img class="responsive-img" src={nocustomshare} />
+            </div>
+          </div>
+          <div class="col s4 m2 lg2">
+            <div class="features-icons-images center-align wow fadeInUp" data-wow-delay="0.4s">
+              <img class="responsive-img" src={Group10} />
+            </div>
+          </div>
+          <div class="col s4 m2 lg2">
+            <div class="features-icons-images center-align wow fadeInUp" data-wow-delay="0.6s">
+              <img class="responsive-img" src={Group11} />
+            </div>
+          </div>
+          <div class="col s4 m2 lg2">
+            <div class="features-icons-images center-align wow fadeInUp" data-wow-delay="0.8s">
+              <img class="responsive-img" src={Group12} />
+            </div>
+          </div>
+          <div class="col s4 m2 lg2">
+            <div class="features-icons-images center-align wow fadeInUp" data-wow-delay="1s">
+              <img class="responsive-img" src={Group13} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+
+}

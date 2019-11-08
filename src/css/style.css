@@ -15,6 +15,11 @@ nav .brand-logo {
     width: 90%;
     margin: auto;
 }
+.nav-pills .active{
+    background-color: gold;
+   color:Black ;
+   font-weight:bold;
+}
 .p-t-20percent{
     padding-top: 20% !important;
 }
@@ -34,6 +39,9 @@ p {
 
 .m-r-4 {
     margin-right: 4px;
+}
+.m-r-15{
+    margin-right: 15 !important;
 }
 .w-percent-90{
     width: 90% !important;
@@ -124,6 +132,13 @@ nav ul a:hover{
     top: 10px;
 }
 
+.main-tab-section-title{
+    padding: 15px 0px;
+}
+.main-tab-section-title h4{
+    color: #fff;
+    font-family: Playfair Display;    
+}
 .read-more-btn-style {
     background: #FFC20E;
     color: #000;
@@ -147,7 +162,7 @@ nav ul a:hover{
     padding: 66px 0px;
 }
 .home-tabed-section{
-    padding: 100px 0px;
+    padding: 0px 0px;
     width: 90% !important; 
 }
 
@@ -156,15 +171,19 @@ nav ul a:hover{
 }
 
 .Jama-tab-card-btn {
-    padding: 18px 42px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 18px 28px;
     font-family: Playfair Display;
     font-weight: 600;
     /* background: #fff; */
-    min-height: 100px;
+    min-height: 108px;
+}
+.left-card-tab{
+    line-height: 80px !important;
 }
 
 .Jama-tab-card-btn img {
-    top: 16px;
+    /* top: 16px; */
     float: left;
     height: 35px;
     position: relative;
@@ -175,7 +194,7 @@ nav ul a:hover{
 }
 
 .Jama-tab-card-btn h6 {
-    margin-left: 58px;
+    margin-left: 50px;
     font-size: 20px;
 }
 
@@ -188,7 +207,8 @@ nav ul a:hover{
 
 .left-menu-sub-tabs-below-wealth {
     background: rgba(255, 255, 255, 0.9);
-    padding: 24px 42px;
+    /* padding: 24px 42px; */
+    border-bottom: 1px solid rgb(202, 202, 202);
 }
 
 .Build-wealth-tab-btn {
@@ -197,8 +217,11 @@ nav ul a:hover{
     margin-bottom: 28px;
     border-radius: 10px;
 }
+.Build-wealth-tab-btn h6{
+    line-height: normal;
+}
 .not-active-wealth-btn{
-    background: #fff;
+    background: rgba(255, 255, 255, 0.9);
     color: #000;
 }
 
@@ -212,7 +235,11 @@ nav ul a:hover{
     display: block;
     width: 30%;
     padding-top: 10px;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.9);
+}
+span i{
+    position: relative;
+    top: 5px;
 }
 
 .home-right-content-section {
@@ -222,7 +249,7 @@ nav ul a:hover{
 
 
 .jama-right-tabs h6 {
-    margin: 0px;
+    margin: 0 auto;
     text-align: center;
     font-size: 20px;
     line-height: 27px;
@@ -247,21 +274,21 @@ nav ul a:hover{
 
 .Jama-home-tab-content-box {
     background: rgba(255, 255, 255, 0.9);
-    min-height: 340px;
-    border-radius: 4px;
-    padding: 25px 15px;
+    min-height: 360px;
+    border-radius: 10px;
+    padding: 20px 20px 34px 20px;
     margin-top: 26px;
 }
 
 .Jama-home-tab-content-box p {
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 19px;
+    line-height: 34px;
     color: rgb(80, 80, 80);
     display: block;
 }
-.tab-content-img{
+/* .tab-content-img{
     padding: 25px;
-}
+} */
 
 .read-more-style {
     text-decoration: #444;
@@ -270,14 +297,15 @@ nav ul a:hover{
     cursor: pointer;
 }
 
-.jars-section-title-heading h3 {
+.jars-section-title-heading h4 {
     font-family: Playfair Display;
     text-align: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    font-weight: bold;
+    /* margin-top: 60px;
+    margin-bottom: 60px; */
 }
 
-.jars-section-title-heading h3::after {
+.jars-section-title-heading h4::after {
     content: "";
     display: block;
     width: 5%;
@@ -286,14 +314,10 @@ nav ul a:hover{
     border-bottom: 2px solid #000;
 }
 
-.Jars-section-left {
-    padding-top: 14%;
-    padding-bottom: 12px;
-}
+
 
 .Jars-section-left h4 {
-    font-family: Playfair Display;
-    font-weight: bold;
+    font-family: Playfair Display;    
     line-height: 44px;
     margin: 25px 0px;
 }
@@ -305,8 +329,7 @@ nav ul a:hover{
     line-height: 25px;
 }
 
-.jars-btns {
-    margin-top: 36px;
+.jars-btns {    
     position: relative;
 }
 
@@ -320,16 +343,26 @@ nav ul a:hover{
 }
 
 .btn-orange {
-    background: #FFC20E;
-    color: #fff;
+    background: #FFC20E;    
+    box-shadow: none !important;    
+    margin-right: 15px;
+}
+.btn{
+    text-transform: capitalize !important;      
+    margin-top: 15px !important;
+}
+.btn-orange:hover{
+    background: rgb(252, 191, 8) !important;
 }
 
 .btn-outline {
     border: 1px solid #FFC20E;
+    background: transparent !important; 
+    box-shadow: none !important;
 }
 
 .video-section {
-    padding-bottom: 60px;
+    
     position: relative;    
 }
 .video-section-bg img{
@@ -343,10 +376,18 @@ nav ul a:hover{
 .video-container {
     border-radius: 10px;
 }
-
+.Wealth-curated-section{
+    margin: 60px 0px;
+}
 .jars-btns .no-obigation-style {
     font-style: italic;
     padding: 0px;
+    background: transparent;
+    box-shadow: none;
+}
+.jars-btns .no-obigation-style:hover{
+    background: transparent;
+    box-shadow: none;
 }
 
 .jars-section-portfolio {
@@ -383,9 +424,10 @@ nav ul a:hover{
     float: right;
     min-height: 60px !important;
     line-height: 65px !important;
-    color: #fff !important;
+    color: #000 !important;
     text-transform: none !important;
     font-size: 18px !important;
+    box-shadow: none !important;
 }
 
 .btn-download-ebook:hover {
@@ -489,9 +531,7 @@ nav ul a:hover{
     background: #fff;
 }
 
-.research-invest-section {
-    padding: 70px 0px;
-}
+
 
 .research-invest-section-content {
     text-align: center;
@@ -506,6 +546,8 @@ nav ul a:hover{
 .research-invest-section-content p {
     color: rgb(126, 126, 126);
     margin: 20px 0px;
+    font-size: 18px;
+    line-height: 28px;
 }
 
 .research-invest-btn-section {
@@ -520,35 +562,31 @@ nav ul a:hover{
 }
 
 .Curator-card-section {
-    box-shadow: 0 8px 10px #e8e8e8;
+    box-shadow: 0 6px 13px #f3f3f3;
     background: #fff;
     border-radius: 8px;
     padding: 25px 60px;
     margin-top: 15px;
-    background-image: url("../assets/testimonial-brcard.svg");
+    /* background-image: url("../assets/testimonial-brcard.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 95%;
-}
-.intro-section-content-text h4{
-    font-size: 42px;
-    font-weight: bold;
-    color: #1553A5;
+    width: 95%; */
 }
 
-.curators-profile-title h6 {
+.curators-profile-title h5 {
     font-family: Playfair Display;
     font-weight: 600;
     color: #1553A5;
     margin-bottom: 5px;
 }
-
-.curators-profile-title {
-    padding: 10px 10px;
-    border: 1px solid #1553A5;
-    border-radius: 8px;
+.curators-profile-title h6{
+    margin: 10px 0px !important;
 }
 
+
+.curators-profile-img img{
+    width: 90%;
+}
 .curators-profile-title img {
     max-height: 14px;
     margin-left: 7px;
@@ -571,6 +609,9 @@ nav ul a:hover{
     list-style-type: none;
     position: relative;
     font-size: 16px;
+    list-style-type: circle !important;
+    line-height: 26px;
+    color: rgb(114, 114, 114);
 }
 
 .page-footer-section {
@@ -606,7 +647,7 @@ nav ul a:hover{
 form.example input[type=text] {
     border: 1px solid grey;
     float: left;
-    width: 45%;
+    width: 96%;
     background: transparent;
     padding: 0px 6px;
     border-radius: 2px;
@@ -616,6 +657,7 @@ form.example input[type=text] {
 
 form.example button {
     float: left;
+    width: 100%;
     padding: 14px;
     background: rgb(255, 255, 255);
     color: rgb(80, 80, 80);
@@ -649,21 +691,24 @@ form.example::after {
     display: grid;
 }
 
-
-
-@media only screen and (max-width: 600px) {
-    .jars-btns li {
-        padding: 10px 20px;
-    }
+nav .sidenav-trigger{
+    float: right !important;
 }
+
+
 
 .homepage-body-bg{
     background-image: url("../assets/bg_block_vector.svg");
 }
 
 .homepage-below-feature-section-list {
-    position: relative;
-    top: -55px;    
+    padding: 40px 0px;
+}
+.Feature-section-title h5{
+    font-family: Playfair Display;
+    line-height: 124%;
+    margin-bottom: 35px;
+    font-size: 2.28em;    
 }
 
 .features-icons-images img {
@@ -685,17 +730,44 @@ form.example::after {
 .mobile-content-text{
     display: none !important;
 }
-/* @media only screen and (max-width: 992px) {
-    .parallax-container .section {
-        position: absolute;
-        top: 40%;
-    }
-    #index-banner .section {
-        top: 10%;
-    }
-} */
 
-@media only screen and (max-width: 1000px) {
+
+@media only screen and (max-width: 600px) {
+    .jars-btns li {
+        padding: 10px 20px;
+    }    
+    .valign-wrapper{
+        display: block !important;
+    }       
+    .Jama-home-tab-content-box{
+        padding: 8px 6px;
+        min-height: 320px !important;
+    }
+    .left-card-tab{
+        line-height: 81px !important;
+    }
+    .Jama-home-tab-content-box p{
+        font-size: 12px !important;
+    line-height: 18px !important;
+    }
+    .home-tabed-section{
+        padding: 0px !important;
+    }
+    .mobile-ver-style{
+        padding: 0px 5px !important;
+    }
+    .Jama-home-tab-content-box{
+        margin-top: 18px;
+    }
+    .Build-wealth-tab-btn{
+        margin-bottom: 19px;
+    }
+    .Curator-card-section{
+        padding: 25px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
     .jama-right-tabs {
         padding: 18px 4px;
     }
@@ -711,11 +783,16 @@ form.example::after {
     .Jama-tab-card-btn h6{
         display: none;
     }
+    /* .tab-content-img{
+        display: none;
+    } */
     .Jama-tab-card-btn{
+        /* background: rgba(255, 255, 255, 0.9) !important; */
         padding: 12px;
         min-height: 65px;
         text-align: center;
     }
+    
     .mobile-show-img{
         display: block;
     }
@@ -724,22 +801,38 @@ form.example::after {
         float: none;
         margin: auto;
     }
+    .Jama-tab-card-btn span{
+        margin: auto;
+    }
     .mobile-title-text{
-        display: block;   
+        display: block; 
+          
     }
+
     .Jama-home-tab-content-box{
-        padding: 8px 6px;
-        min-height: 0px;
+        min-height: 320px !important;
     }
+     
     .Jama-home-tab-content-box p{
-        display: none;
+        font-size: 14px;
+        line-height: 21px;
     }
     .mobile-content-text{
         display: block !important;
-    }    
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }  
+      
 }
 
-
-
+@media only screen and (min-width: 993px){
+    .left-card-tab{
+       min-height: 119px;
+    }
+    /* .Jama-home-tab-content-box p{
+        font-size: 19px;
+        line-height: 34px;
+    } */
+}
 
 

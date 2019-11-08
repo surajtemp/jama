@@ -7,11 +7,11 @@ import alocateimg from '../assets/alocateimg.svg';
 import Footer from './Footer';
 import Header from './Header';
 import Downladebook from './Downladebook';
+import undraw_pie_chart_6efe from '../assets/undraw_pie_chart_6efe.svg';
 
 
 
-
-export class IndiasEconomyinfo extends Component {
+export class HowtoAlocateinfo extends Component {
     render() {
         return (
             <div>
@@ -25,7 +25,7 @@ export class IndiasEconomyinfo extends Component {
                     </div>
 
                     <div class="container how-jama-works-content w-percent-90">
-                        <div class="row">
+                        <div class="row valign-wrapper">
                             <div class="col s12 m5">
                                 <div class="about-philosophy-left-content">
                                     <h4>How to allocate your portfolio</h4>
@@ -39,7 +39,7 @@ export class IndiasEconomyinfo extends Component {
 
                             <div class="col s12 m7">
                                 <div class="Aboutus-img-right right-align">
-                                    <img class=" responsive-img" src={alocateimg} />
+                                    <img class=" responsive-img" src={undraw_pie_chart_6efe} />
                                 </div>
                             </div>
                         </div>
@@ -47,7 +47,7 @@ export class IndiasEconomyinfo extends Component {
                     </div>
                 </div>
 
-                <Downladebook />
+                
 
                 <div class=" research-invest-section ">
                     <div class=" row ">
@@ -60,7 +60,7 @@ export class IndiasEconomyinfo extends Component {
                                     took a galley
                                         of type and scrambled it to make a type specimen book</p>
                                 <div class=" research-invest-btn-section ">
-                                    <a class=" btn-orange research-btn ">Contact Advisor</a>
+                                <a class="waves-effect waves-light btn btn-large btn-orange m-r-15">Contact Advisor</a> 
                                 </div>
                             </div>
                         </div>
@@ -74,6 +74,6 @@ export class IndiasEconomyinfo extends Component {
     }
 }
 
-export default IndiasEconomyinfo
+export default HowtoAlocateinfo
 
 

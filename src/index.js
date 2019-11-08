@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { Route, Link, Switch, BrowserRouter as Router } from 'react-router-dom';
+import { Route, NavLink, Switch, BrowserRouter as Router } from 'react-router-dom';
 import Homepage from '../src/Component/Homepage';
 import HowjamaWorks from '../src/Component/HowjamaWorks';
 import * as serviceWorker from './serviceWorker';
@@ -19,6 +19,10 @@ import Values from './Component/Values';
 import Investphilosphyinfo from './Component/Investphilosphyinfo';
 import IndiasEconomyinfo from './Component/IndiasEconomyinfo';
 import Jamaadvisorypage from './Component/Jamaadvisorypage';
+import InvestPhilosphy from './Component/InvestPhilosphy';
+import HowtoAlocateinfo from './Component/HowtoAlocateinfo';
+import SheerMagicinfo from './Component/SheerMagicinfo';
+
 
 
 
@@ -42,8 +46,11 @@ const routing = (
       <Route path="/Values" component={Values} />
       <Route path="/Investphilosphyinfo" component={Investphilosphyinfo} />
       <Route path="/IndiasEconomyinfo" component={IndiasEconomyinfo} />
-      <Route path="/HowtoAlocateinfo" component={HowJamaWorksInfo} />
+      <Route path="/HowtoAlocateinfo" component={HowtoAlocateinfo}/>
       <Route path="/Jamaadvisorypage" component={Jamaadvisorypage} />
+      <Route path="/InvestPhilosphy" component={InvestPhilosphy} />
+      <Route path="/SheerMagicinfo" component={SheerMagicinfo} />
+
     </Switch>
     {/* </BrowserRouter> */}
   </Router>

@@ -4,3 +4,12 @@
 .research-invest-section-content img{
     max-height: 200px;
 }
+.value-top-section{
+    border-bottom: 3px solid #FFC20E;
+    background-image: url("../assets/ourvaluebg.svg");
+    position: relative;
+    min-height: 300px;
+}
+.research-invest-section-content {
+    padding-top: 80px;
+}

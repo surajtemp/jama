@@ -26,19 +26,17 @@ export class Introsection extends Component {
                             <div class="row">
                                 <div class="col m7">
                                     <div class="intro-section-content-text">
-
                                         <h4>Preserve Wealth. Increase Prosperity.</h4>
                                         <ul class="banner-para-list">
                                             <li>by algorithmic investing  in a high qulaiyt 'Long' portfolio if equities.</li>
-                                            <hr class="divider-line"></hr>
-                                            <li>Unique model designed for trust. Managed by RIAs, IIM/IIT alumni.</li>
                                         </ul>
                                         {/* <p>by algorithmic investing  in a high qulaiyt 'Long' portfolio if equities.</p>
                                     <h6>Unique model designed for trust. Managed by RIAs, IIM/IIT alumni.</h6> */}
                                     </div>
                                     <div class="jars-btns">
-                                        <li class="btn-orange">Contact Wealth Manager</li>
+                                    <a class="waves-effect waves-light btn btn-large btn-orange m-r-15">Contact Wealth Manager</a>
                                     </div>
+                                    <p class="Sebi-style-intro">SEBI Registered Investment Advisor: INA 200006725</p>
                                 </div>
                             </div>
 

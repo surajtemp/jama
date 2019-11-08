@@ -14,16 +14,13 @@ body {
 }
 
 .how-jama-works-content {
-    padding: 45px 0px;
+    padding: 0px 0px;
 }
 
 .jars-section-title-heading {
-    margin-bottom: 60px;
+    margin-bottom: 320px;
 }
 
-.about-philosophy-left-content {
-    padding-top:150%;
-}
 
 .about-philosophy-left-content h4 {
     font-family: Playfair Display;
@@ -48,12 +45,13 @@ body {
 }
 
 .Aboutus-img-right img {
-    width: auto;
-    height: 400px;
+    width: 80%;
 }
 @media only screen and (max-width: 600px) {
-    .Aboutus-img-right img {
-        height: auto;
+    .Aboutus-img-right img {        
         width: 100%;
     }
+}
+.Aboutus-img-right img{
+    margin-top: 25px;
 }

@@ -27,7 +27,7 @@ export class startwealthcreationinfo extends Component {
                     </div>
 
                     <div class="container how-jama-works-content w-percent-90">
-                        <div class="row">
+                        <div class="row valign-wrapper">
                             <div class="col s12 m5">
                                 <div class="about-philosophy-left-content">
                                     <h4>Start Your wealth creation journey</h4>
@@ -47,9 +47,7 @@ export class startwealthcreationinfo extends Component {
                         </div>
 
                     </div>
-                </div>
-
-                <Downladebook />
+                </div>                
 
                 <div class=" research-invest-section ">
                     <div class=" row ">
@@ -62,7 +60,7 @@ export class startwealthcreationinfo extends Component {
                                     took a galley
                                         of type and scrambled it to make a type specimen book</p>
                                 <div class=" research-invest-btn-section ">
-                                    <a class=" btn-orange research-btn ">Contact Advisor</a>
+                                <a class="waves-effect waves-light btn btn-large btn-orange m-r-15">Contact Advisor</a> 
                                 </div>
                             </div>
                         </div>

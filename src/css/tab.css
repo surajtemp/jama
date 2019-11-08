@@ -9,7 +9,7 @@
     padding: 1em;
     background: transparent;
     color: rgb(37, 37, 37);
-    border: 1px solid;
+    border: 1px solid #1553A5;
     cursor: pointer;
     border-radius: 4px;
     margin: 0px 10px;
@@ -21,7 +21,7 @@
   }
   
   .Tabs__Tab:hover, .Tabs__Tab--active {
-    background: rgb(37, 37, 37);
+    background: #1553A5;
     color: white;
   }
   
@@ -45,4 +45,9 @@
     color: #818181;
   }
 
-  
+  @media only screen and (max-width: 600px) {
+    .Tabs__Tab{
+      font-size: 14px;
+      min-width: 158px;
+    }
+}
