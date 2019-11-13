@@ -14,26 +14,28 @@ import philosophyyllo from '../assets/philosophyyllo.png';
 import howjamaimgyllo from '../assets/howjamaimgyllo.png';
 import startimgyllo from '../assets/startimgyllo.png';
 import WOW from 'wowjs';
+import Introsection from './Introsection';
 
 export class BuildWealthPrudence extends Component {
   componentDidMount() {
     new WOW.WOW().init();
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
   }
 
   render() {
     return (
       <div>
+        <Header />
+        <Introsection />
         <div class="Home-section-banner-img">
-          <Header />
           <div class="container home-tabed-section">
-          <div class="row center-align main-tab-section-title">              
-                <h4>Industry Knowledge Coupled with Robust Investment Philosophy</h4>              
+            <div class="row center-align main-tab-section-title">
+              <h4>Industry Knowledge Coupled with Robust Investment Philosophy</h4>
             </div>
             <div class="row">
               <div class="col s3 m4 xl3 tab-card-margin-style mobile-ver-style">
                 <div class="left-menu-wealth-tab">
-                  <div class="Jama-tab-card-btn Build-wealth-tab-btn">
+                  <div class="Jama-tab-card-btn Build-wealth-tab-btn valign-wrapper">
                     <span>
                       <img src={bars} />
                       <span>
@@ -97,14 +99,14 @@ export class BuildWealthPrudence extends Component {
                         </div></Link>
                       </div>
                       <div class="col m4 s4 no-padding tab-card-margin-style">
-                        <Link to="/StartWealthCreation">   <div class="Jama-tab-card-btn valign-wrapper jama-right-tabs bg-white b-right">
+                        <a href="https://www.jama.co.in/app/accounts/login/" target="_blank">  <div class="Jama-tab-card-btn valign-wrapper jama-right-tabs bg-white b-right">
                           <span>
                             <img class="mobile-show-img" src={startimgyllo} />
                           </span>
                           <h6 class="under-line-style">Get Started <span><i class="material-icons start-arrows">
                             arrow_right_alt
 </i> </span> </h6>
-                        </div></Link>
+                        </div></a>
                       </div>
                     </div>
                   </div>
@@ -112,14 +114,11 @@ export class BuildWealthPrudence extends Component {
                   <div class="Jama-home-tab-content-box valign-wrapper wow fadeIn">
                     <div class="row m-0 valign-wrapper">
                       <div class="col s12 m8">
-                        <h5 class="mobile-title-text">Build Wealth Prudence</h5>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the
-                            1500s, when an unknown printer took a galley of type and scrambled
-                                            it to make a type specimen book since the
-                            1500s, when an unknown printer took a galley</p>
+                        <h5 class="mobile-title-text">Preserve & Prosper</h5>
+                        <p>Most good things in life are simple, yet hard. Growing & retaining wealth is simple too, right? Just invest regularly in a set of equities, and over time wealth happens.
+Compounded growth will silently do its work. But not quite so!</p>
                         <div class="read-more-btn">
-                          <Link to="/BuildWealthprudenceinfo"><button class="read-more-btn-style">
+                          <Link to="/Investphilosphyinfo"><button class="read-more-btn-style">
                             Read More
                                                 </button></Link>
                         </div>

@@ -17,7 +17,7 @@ import WOW from 'wowjs';
 export class Jamaadvisorypage extends Component {
     componentDidMount() {
         new WOW.WOW().init();
-    window.scrollTo(0, 0);
+        window.scrollTo(0, 0);
     }
 
     render() {
@@ -28,7 +28,12 @@ export class Jamaadvisorypage extends Component {
                 <div class="jars-section">
                     <div class="container jama-advisory-toprow w-percent-90">
                         <div class="row valign-wrapper">
-                            <div class="col s12 m5">
+                            <div class="col s12 m12 push-m6">
+                                <div class="jamadvisory-img-right wow fadeInUp" data-wow-delay="0.1s">
+                                    <img class=" responsive-img" src={jamaadvisory} />
+                                </div>
+                            </div>
+                            <div class="col s12 m12 pull-m6">
                                 <div class="jamaadvisory-left-content wow fadeInUp" data-wow-delay="0.4s">
                                     <h4><b>J</b>ama <b>A</b>dvisory & <b>R</b>esearch on <b>S</b>tocks <b>(JARS)</b> </h4>
                                     <p>Lorem ipsum dolor sit amet, quod deserunt intellegam nam in, cum no atqui definiebas. Ex nam
@@ -36,12 +41,6 @@ export class Jamaadvisorypage extends Component {
                             nominavi suscipiantur eu. </p>
                                     <p>Lorem ipsum dolor sit amet, quod deserunt intellegam nam in, cum no atqui definiebas. quod
                             deserunt intellegam nam cum no atqui definiebas. quod deserunt intellegam nam </p>
-                                </div>
-                            </div>
-
-                            <div class="col s12 m7">
-                                <div class="jamadvisory-img-right wow fadeInUp" data-wow-delay="0.1s">
-                                    <img class=" responsive-img" src={jamaadvisory} />
                                 </div>
                             </div>
                         </div>
@@ -75,7 +74,7 @@ export class Jamaadvisorypage extends Component {
 
                 <div class=" research-invest-section ">
                     <div class=" row ">
-                        <div class="col s12 m8 l6 offset-m2 offset-l3">
+                        <div class="col s12 m8 l6 offset-m2 offset-l3 key-statics-section">
                             <div class="Key-strength-title">
                                 <h4>Key Statistics</h4>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
@@ -92,7 +91,12 @@ export class Jamaadvisorypage extends Component {
                 <div class="jars-section-portfolio">
                     <div class="container w-percent-90">
                         <div class="row valign-wrapper">
-                            <div class="col s12 m6">
+                            <div class="col s12 m12 push-m6">
+                                <div class="jama-advice-how-we-perform-img wow fadeInUp" data-wow-delay="0.1s">
+                                    <img src={howweperformimg} />
+                                </div>
+                            </div>
+                            <div class="col s12 m12 pull-m6">
                                 <div class="Jars-section-left wow fadeInUp" data-wow-delay="0.4s">
                                     <h4>How we performed over the years</h4>
                                     <p class="no-padding">Over the Financial years of 2010-2019, if you did investment <br></br> of <span class="bold-text"> &#x20b9; 1crore</span> Jamā returns would be as high as <span class="bold-text"> &#x20b9; 13.29 crore.</span> </p>
@@ -100,12 +104,6 @@ export class Jamaadvisorypage extends Component {
                                     <div class="jars-btns text-white-btn">
                                         <a class="waves-effect waves-light btn btn-large btn-orange m-r-15">Contact Advisor</a>
                                     </div>
-                                </div>
-                            </div>
-
-                            <div class="col s12 m6">
-                                <div class="jama-advice-how-we-perform-img wow fadeInUp" data-wow-delay="0.1s">
-                                    <img src={howweperformimg} />
                                 </div>
                             </div>
                         </div>
@@ -123,7 +121,7 @@ export class Jamaadvisorypage extends Component {
                             </div>
 
                             <div class="col s12 m6">
-                                <div class="Jars-section-left right-align-text wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="Jars-section-left wow fadeInUp" data-wow-delay="0.4s">
                                     <h4>Our Model Portfolio</h4>
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem of type and scrambled it to make a type specimen book Lorem</p>
                                     <div class="jars-btns text-white-btn">

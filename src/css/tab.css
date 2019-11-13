@@ -39,6 +39,7 @@
   .tab-content-value-list h5{
     font-weight: bold;
     font-family: Playfair Display;  
+    margin: 0px;
   }
 
   .tab-content-value-list p{

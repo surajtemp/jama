@@ -22,18 +22,19 @@ export class InvestPhilosphy extends Component {
 
   componentDidMount() {
     new WOW.WOW().init();
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
   }
 
 
   render() {
     return (
       <div>
-        <Header />        
+        <Header />
+        <Introsection />
         <div class="Home-section-banner-img">
           <div class="container home-tabed-section">
-          <div class="row center-align main-tab-section-title">              
-                <h4>Industry Knowledge Coupled with Robust Investment Philosophy</h4>              
+            <div class="row center-align main-tab-section-title">
+              <h4>Industry Knowledge Coupled with Robust Investment Philosophy</h4>
             </div>
             <div class="row">
               <div class="col s3 m4 xl3 tab-card-margin-style mobile-ver-style">
@@ -45,7 +46,6 @@ export class InvestPhilosphy extends Component {
                         <h6 class="under-line-style">Preserve & Prosper</h6>
                       </span>
                     </span>
-
                   </div>
                 </div></Link>
 
@@ -101,14 +101,14 @@ export class InvestPhilosphy extends Component {
                         </div></Link>
                       </div>
                       <div class="col m4 s4 no-padding tab-card-margin-style">
-                        <Link to="/StartWealthCreation"> <div class="Jama-tab-card-btn valign-wrapper jama-right-tabs bg-white b-right">
+                        <a href="https://www.jama.co.in/app/accounts/login/" target="_blank"> <div class="Jama-tab-card-btn valign-wrapper jama-right-tabs bg-white b-right">
                           <span>
                             <img class="mobile-show-img" src={startimgyllo} />
                           </span>
                           <h6 class="under-line-style">Get Started <span><i class="material-icons start-arrows">
                             arrow_right_alt
 </i> </span></h6>
-                        </div></Link>
+                        </div></a>
                       </div>
                     </div>
                   </div>
@@ -116,14 +116,16 @@ export class InvestPhilosphy extends Component {
                   <div class="Jama-home-tab-content-box valign-wrapper">
                     <div class="row m-0 valign-wrapper">
                       <div class="col s12 m12 l8">
-                        <h5 class="mobile-title-text">Invest Philosphy</h5>
+                        <h5 class="mobile-title-text">Our Philosophy</h5>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the
                             1500s, when an unknown printer took a galley of type and scrambled
                                             it to make a type specimen book since the
                           1500s, when an unknown printer took a galley</p>
                         <div class="read-more-btn">
-                          <Link to="/Investphilosphyinfo"> <a class="waves-effect waves-light btn btn-large btn-orange m-r-15">Read more</a></Link>
+                          <Link to="/Investphilosphyinfo"><button class="read-more-btn-style">
+                            Read More
+                                                </button></Link>
                         </div>
                       </div>
                       <div class="col s12 m12 l4 hide-on-med-and-down">

@@ -5,9 +5,9 @@ body {
     font-weight: 100;
 }
 
-.team-top-img img{
+/* .team-top-img img{
     width: 80%;
-}
+} */
 
 .jars-section-title-heading {
     margin-bottom: 32px;
@@ -34,7 +34,7 @@ body {
 }
 
 .about-philosophy-left-content p {
-    color: rgb(102, 102, 102);
+    color: rgb(58, 58, 58);
 }
 
 .top-content-section{

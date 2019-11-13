@@ -35,9 +35,9 @@ export class Aboutus extends Component {
                         <div class="row valign-wrapper">
                             <div class="col s12 m6 offset-m3">
                                 <div class="jars-section-title-heading">
-                                    <h4><b>Our philosophy</b></h4>
+                                    <h4><b>Our Philosophy</b></h4>
                                 </div>
-                                <div class="about-philosophy-left-content center-align wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="about-philosophy-left-content center-align wow fadeIn" data-wow-delay="0.4s">
                                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
                                 </div>
                             </div>
@@ -53,7 +53,7 @@ export class Aboutus extends Component {
                         <div class=" col m6 offset-m3 ">
                             <div class=" row ">
                                 <div class=" col s12 m6 ">
-                                    <div class=" team-top-section wow fadeInUp">
+                                    <div class=" team-top-section wow fadeIn">
                                         <div class=" team-top-img center-align ">
                                             <img src={team1} />
                                         </div>
@@ -66,7 +66,7 @@ export class Aboutus extends Component {
                                     </div>
                                 </div>
                                 <div class=" col s12 m6 ">
-                                    <div class=" team-top-section wow fadeInUp">
+                                    <div class=" team-top-section wow fadeIn">
                                         <div class=" team-top-img center-align ">
                                             <img src={team2} />
                                         </div>

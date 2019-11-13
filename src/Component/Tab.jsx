@@ -28,14 +28,14 @@ class Tab extends React.Component {
                 <div class="container Values-tab-content">
                     <div class="row m-0">
                         <div class="col m4 col s12">
-                            <div class="tab-content-value-list wow fadeInUp">
+                            <div class="tab-content-value-list wow fadeIn">
                                 <img src={value} />
                                 <h5>Customer Focus</h5>
                                 <p>Do what is right for the client. <br></br>Always be on their side! </p>
                             </div>
                         </div>
                         <div class="col m4 col s12">
-                            <div class="tab-content-value-list wow fadeInUp">
+                            <div class="tab-content-value-list wow fadeIn">
                                 <img src={honesty} />
                                 <h5>Honesty</h5>
                                 <p>No lies, No hidden costs for the <br></br>
@@ -43,7 +43,7 @@ class Tab extends React.Component {
                             </div>
                         </div>
                         <div class="col m4 col s12">
-                            <div class="tab-content-value-list wow fadeInUp">
+                            <div class="tab-content-value-list wow fadeIn">
                                 <img src={profit} />
                                 <h5>Profitability</h5>
                                 <p>Help clients in a long term and<br></br>
@@ -54,14 +54,14 @@ class Tab extends React.Component {
                     <div class="row m-0">
                         <div class="col m2"></div>
                         <div class="col m4 col s12">
-                            <div class="tab-content-value-list wow fadeInUp">
+                            <div class="tab-content-value-list wow fadeIn">
                                 <img src={save} />
                                 <h5>Frugality</h5>
                                 <p>Do what is right for the client. <br></br>Always be on their side! </p>
                             </div>
                         </div>
                         <div class="col m4 col s12">
-                            <div class="tab-content-value-list wow fadeInUp">
+                            <div class="tab-content-value-list wow fadeIn">
                                 <img src={speed} />
                                 <h5>Speed</h5>
                                 <p>Spend judiciously in the interest <br></br>

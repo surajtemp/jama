@@ -28,16 +28,7 @@
     margin-top: 25px;
 }
 
-form.example input[type=text] {
-    border: 1px solid grey;
-    float: left;
-    width: 45%;
-    background: transparent;
-    padding: 0px 6px;
-    border-radius: 2px;
-    margin-right: 10px;
-    color: #1D294A;
-}
+
 
 form.example button {
     float: left;

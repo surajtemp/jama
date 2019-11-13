@@ -11,15 +11,14 @@ nav ul a,
 nav .brand-logo {
     color: #444;
 }
+.sidenav-trigger{
+    margin: 0px;
+}
 .custom-width-header{
     width: 90%;
     margin: auto;
 }
-.nav-pills .active{
-    background-color: gold;
-   color:Black ;
-   font-weight:bold;
-}
+
 .p-t-20percent{
     padding-top: 20% !important;
 }
@@ -104,15 +103,7 @@ nav ul a:hover{
     background: transparent !important;
     font-size: bold;
 }
-/* nav ul a:after {
-    content: "";
-    display: block;
-    width: 30%;
-    padding-top: 1px;
-    border-bottom: 2px solid #1553A5;
-    top: -17px;
-    position: relative;
-} */
+
 
 
 .sidenav-trigger {
@@ -122,7 +113,11 @@ nav ul a:hover{
 .start-btn {
     padding: 8px 15px !important;
     border: 1px solid #FFC20E;
-    border-radius: 4px;
+    border-radius: 2px;    
+}
+.start-btn:hover{
+    color: #000 !important;
+    background: #FFC20E !important;
 }
 
 
@@ -228,6 +223,7 @@ nav ul a:hover{
 .left-menu-sub-active{
     background: #1553A5;
     color: #fff;
+    border-bottom: none;
 }
 
 .Build-wealth-tab-btn .under-line-style:after {
@@ -359,6 +355,9 @@ span i{
     border: 1px solid #FFC20E;
     background: transparent !important; 
     box-shadow: none !important;
+}
+.btn-outline:hover{
+    background: #FFC20E !important;
 }
 
 .video-section {
@@ -599,6 +598,7 @@ span i{
     background: #FFC20E;
     padding: 2px 4px;
     margin-top: 5px;
+    display: inline-block;
 }
 
 .curator-description {
@@ -653,6 +653,7 @@ form.example input[type=text] {
     border-radius: 2px;
     margin-right: 10px;
     color: #1D294A;
+    width: 96% !important;
 }
 
 form.example button {
@@ -702,7 +703,7 @@ nav .sidenav-trigger{
 }
 
 .homepage-below-feature-section-list {
-    padding: 40px 0px;
+    padding-top: 40px;
 }
 .Feature-section-title h5{
     font-family: Playfair Display;
@@ -764,6 +765,12 @@ nav .sidenav-trigger{
     }
     .Curator-card-section{
         padding: 25px;
+    }
+    .btn-orange{
+        padding: 0px 14px !important;
+    }
+    .curators-profile-title h5{
+        font-size: 20px;
     }
 }
 
@@ -836,3 +843,25 @@ nav .sidenav-trigger{
 }
 
 
+nav ul li.active {
+    background-color: #1553A5 !important;
+  }
+  
+
+
+
+/* .navbar .nav-pills > li > a:hover {
+    background-color: gold;
+    color: black;
+}
+
+.navbar .nav-pills .active {
+  background-color: gold;
+  color:Black ;
+  font-weight:bold;
+} */
+.article-sub-title{
+    margin-top: 35px;
+    font-weight: bold;
+    font-size: 22px !important;
+}

@@ -18,15 +18,14 @@ export class Introsection extends Component {
 
                     <div class="intro-section-bg">
 
-                        <div class="close-div-btn">
-                            <Button variant="raised" onClick={() => this.setState({ show: false })}><CloseIcon /></Button>
-                            {/* <i class="material-icons right">close</i> */}
-                        </div>
+                        {/* <div class="close-div-btn">
+                            <Button variant="raised" onClick={() => this.setState({ show: false })}><CloseIcon /></Button>                            
+                        </div> */}
                         <div class="intro-section-content">
                             <div class="row">
                                 <div class="col m7">
                                     <div class="intro-section-content-text">
-                                        <h4>Preserve Wealth. Increase Prosperity.</h4>
+                                        <h4>Preserve <span class="highlight-text-style"> Wealth.</span> Increase <span class="highlight-text-style"> Prosperity.</span></h4>
                                         <ul class="banner-para-list">
                                             <li>by algorithmic investing  in a high qulaiyt 'Long' portfolio if equities.</li>
                                         </ul>

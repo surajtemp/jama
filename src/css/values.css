@@ -13,3 +13,60 @@
 .research-invest-section-content {
     padding-top: 80px;
 }
+
+.value-tabs{    
+    font-family: Playfair Display;
+    font-size: 18px;
+    background: #1553A5;
+    color: white;
+    box-shadow: none;
+    min-width: 190px;    
+    font-weight: bold;
+    margin: 0px 10px;
+}
+.Tabs {
+    position: relative;    
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .Tabs__Tab {
+    display: inline-block;
+    padding: 1em;
+    background: transparent;
+    color: rgb(37, 37, 37);    
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0px 10px;
+    font-family: Playfair Display;
+    font-size: 18px;
+    min-width: 190px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+.operating-tab{        
+    border: 1px solid #FFC20E !important;
+}
+.operating-tab:hover{        
+    background: #FFC20E !important;
+    color: #fff !important;
+}
+
+.operating-tab-active{        
+    background: #FFC20E !important;    
+    color: #fff;
+}
+
+.value-tab-active{
+    background: #1553A5 !important;
+    color: #fff !important;
+    border: 1px solid #1553A5;
+}
+  .value-tab{    
+    border: 1px solid #1553A5 !important;
+  }
+  .value-tab:hover{
+    background: #1553A5 !important;
+    color: #fff !important;
+  }

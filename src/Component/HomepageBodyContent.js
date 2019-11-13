@@ -37,7 +37,12 @@ export class HomepageBodyContent extends Component {
               {/* <h4> JARS' Model Portfolio Has Delivered Outsized Returns </h4> */}
             </div>
             <div class="row valign-wrapper">
-              <div class="col m12 l6 no-padding">
+              <div class="col s12 m12 push-m6 no-padding">
+                <div class="Jar-graph-img wow fadeIn">
+                  <img src={Jargraph} />
+                </div>
+              </div>
+              <div class="col s12 m12 pull-m6 no-padding">
                 <div class="Jars-section-left">
                   <h4>JARS fares better than other assets classes</h4>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
@@ -48,17 +53,11 @@ export class HomepageBodyContent extends Component {
                   </div>
                 </div>
               </div>
-
-              <div class="col m12 l6 no-padding">
-                <div class="Jar-graph-img wow fadeInRight">
-                  <img src={Jargraph} />
-                </div>
-              </div>
             </div>
 
             <div class="row valign-wrapper">
               <div class="col m12 l6">
-                <div class="Jar-graph-img wow fadeInLeft">
+                <div class="Jar-graph-img wow fadeIn">
                   <img src={niftimg} />
                 </div>
               </div>
@@ -85,18 +84,18 @@ export class HomepageBodyContent extends Component {
             </div>
             <div class="row">
               <div class="col s12 m6">
-                <div class="Curator-card-section wow fadeInUp">
+                <div class="Curator-card-section wow fadeIn">
                   <div class="row valign-wrapper">
                     <div class="col s3 no-padding">
                       <img class="curators-profile-img responsive-img" src={Ram2x} />
                     </div>
-                    <div class="col s9 no-padding">
+                    <div class="col s9">
                       <div class="curators-profile-title">
                         <h5>Ram Kalyan Medury</h5>
                         <h6 class="m-0">Founder & Ceo <span><img
                           src={linkedin} /></span>
                         </h6>
-                        {/* <p class="SEBI-style">SEBI Registered Investment Advisor INA 200006725</p> */}
+                        <p class="SEBI-style">SEBI Registered Investment Advisor INA 200006725</p>
                       </div>
                     </div>
                   </div>
@@ -117,18 +116,18 @@ export class HomepageBodyContent extends Component {
                 </div>
               </div>
               <div class="col s12 m6">
-                <div class="Curator-card-section wow fadeInUp">
+                <div class="Curator-card-section wow fadeIn">
 
                   <div class="row valign-wrapper">
                     <div class="col s3 no-padding">
                       <img class="curators-profile-img responsive-img" src={Manoj2x} />
                     </div>
-                    <div class="col s9 no-padding">
+                    <div class="col s9">
                       <div class="curators-profile-title">
                         <h5>Manoj Trivedi</h5>
                         <h6 class="m-0">Research & Advisory Head <span><img
                           src={linkedin} /></span></h6>
-                        {/* <p class="SEBI-style">SEBI Registered Investment Advisor INA 200006725</p> */}
+                        <p class="SEBI-style">SEBI Registered Investment Advisor INA 200006725</p>
                       </div>
                     </div>
                   </div>
@@ -159,7 +158,7 @@ export class HomepageBodyContent extends Component {
             </div>
             <div class="row">
               <div class="col m8 s12 offset-m2 no-padding">
-                <div class="video-container wow fadeInUp">
+                <div class="video-container wow fadeIn">
                   <iframe width="560" height="315"
                     src="https://www.youtube-nocookie.com/embed/fPt-kHmC-hY?controls=0" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -177,7 +176,12 @@ export class HomepageBodyContent extends Component {
         <div class="jars-section-portfolio">
           <div class="container w-percent-90">
             <div class="row valign-wrapper">
-              <div class="col s12 m6">
+              <div class="col s12 m12 push-m6">
+                <div class="portfolio-img-section wow fadeIn">
+                  <img src={Group2284} />
+                </div>
+              </div>
+              <div class="col s12 m12 pull-m6">
                 <div class="Jars-section-left">
                   <h4>Get your portfolio Health <br></br> Checkup Now</h4>
                   <p class="no-padding">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -185,14 +189,8 @@ export class HomepageBodyContent extends Component {
                             unknown printer</p>
 
                   <div class="jars-btns">
-                    <a class="waves-effect waves-light btn btn-large btn-orange m-r-15">Contact Advisor</a>                    
+                    <a class="waves-effect waves-light btn btn-large btn-orange m-r-15">Contact Advisor</a>
                   </div>
-                </div>
-              </div>
-
-              <div class="col s12 m6">
-                <div class="portfolio-img-section wow fadeInRight">
-                  <img src={Group2284} />
                 </div>
               </div>
             </div>
@@ -209,7 +207,7 @@ export class HomepageBodyContent extends Component {
             </div>
             <div class="row m-0">
               <div class="col m6 l4">
-                <div class="jama-testimonials-cards wow fadeInUp" data-wow-delay="0.1s">
+                <div class="jama-testimonials-cards wow fadeIn" data-wow-delay="0s">
                   <div class="Testimonial-profile">
                     <div class="row valign-wrapper testimonial-section-profile-details">
                       <div class="testimonial-pic-section">
@@ -230,17 +228,12 @@ export class HomepageBodyContent extends Component {
               book.
                                     </p>
                     </div>
-                  </div>
-                  <div class="float-right">
-                    <i class="material-icons testimonial-more-vert-btn">
-                      more_vert
-                            </i>
                   </div>
                 </div>
               </div>
 
               <div class="col m6 l4">
-                <div class="jama-testimonials-cards wow fadeInUp" data-wow-delay="0.2s">
+                <div class="jama-testimonials-cards wow fadeIn" data-wow-delay="0.2s">
                   <div class="Testimonial-profile">
                     <div class="row valign-wrapper testimonial-section-profile-details">
                       <div class="testimonial-pic-section">
@@ -261,17 +254,12 @@ export class HomepageBodyContent extends Component {
               book.
                                     </p>
                     </div>
-                  </div>
-                  <div class="float-right">
-                    <i class="material-icons testimonial-more-vert-btn">
-                      more_vert
-                            </i>
                   </div>
                 </div>
               </div>
 
               <div class="col m6 l4">
-                <div class="jama-testimonials-cards wow fadeInUp" data-wow-delay="0.3s">
+                <div class="jama-testimonials-cards wow fadeIn" data-wow-delay="0.4s">
                   <div class="Testimonial-profile">
                     <div class="row valign-wrapper testimonial-section-profile-details">
                       <div class="testimonial-pic-section">
@@ -292,113 +280,15 @@ export class HomepageBodyContent extends Component {
               book.
                                     </p>
                     </div>
-                  </div>
-                  <div class="float-right">
-                    <i class="material-icons testimonial-more-vert-btn">
-                      more_vert
-                            </i>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col m6 l4">
-                <div class="jama-testimonials-cards wow fadeInUp" data-wow-delay="0.6s">
-                  <div class="Testimonial-profile">
-                    <div class="row valign-wrapper testimonial-section-profile-details">
-                      <div class="testimonial-pic-section">
-                        <img class="profile-pic" src={profile} />
-                      </div>
-
-                      <div class="testimonial-text">
-                        <h6>Pam Beesly</h6>
-                        <p class="m-0">since 2011</p>
-                      </div>
-
-                    </div>
-                    <div class="testimonial-description">
-                      <h6>The best of the best..</h6>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-              Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-              unknown printer took a galley of type and scrambled it to make a type specimen
-              book.
-                                    </p>
-                    </div>
-                  </div>
-                  <div class="float-right">
-                    <i class="material-icons testimonial-more-vert-btn">
-                      more_vert
-                            </i>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col m6 l4">
-                <div class="jama-testimonials-cards wow fadeInUp" data-wow-delay="0.7s">
-                  <div class="Testimonial-profile">
-                    <div class="row valign-wrapper testimonial-section-profile-details">
-                      <div class="testimonial-pic-section">
-                        <img class="profile-pic" src={profile} />
-                      </div>
-
-                      <div class="testimonial-text">
-                        <h6>Pam Beesly</h6>
-                        <p class="m-0">since 2011</p>
-                      </div>
-
-                    </div>
-                    <div class="testimonial-description">
-                      <h6>The best of the best..</h6>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-              Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-              unknown printer took a galley of type and scrambled it to make a type specimen
-              book.
-                                    </p>
-                    </div>
-                  </div>
-                  <div class="float-right">
-                    <i class="material-icons testimonial-more-vert-btn">
-                      more_vert
-                            </i>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col m6 l4">
-                <div class="jama-testimonials-cards wow fadeInUp" data-wow-delay="0.8s">
-                  <div class="Testimonial-profile">
-                    <div class="row valign-wrapper testimonial-section-profile-details">
-                      <div class="testimonial-pic-section">
-                        <img class="profile-pic" src={profile} />
-                      </div>
-
-                      <div class="testimonial-text">
-                        <h6>Pam Beesly</h6>
-                        <p class="m-0">since 2011</p>
-                      </div>
-
-                    </div>
-                    <div class="testimonial-description">
-                      <h6>The best of the best..</h6>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-              Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-              unknown printer took a galley of type and scrambled it to make a type specimen
-              book.
-                                    </p>
-                    </div>
-                  </div>
-                  <div class="float-right">
-                    <i class="material-icons testimonial-more-vert-btn">
-                      more_vert
-                            </i>
                   </div>
                 </div>
               </div>
 
             </div>
             <div class="See-more-btn">
-              <button class="btn waves-effect waves-light center testimonial-see-more-btn" type="submit"
+              <Link to="/testimonial">   <button class="btn waves-effect waves-light center testimonial-see-more-btn" type="submit"
                 name="action">See More
-                </button>
+                </button> </Link>
             </div>
           </div>
         </div>
@@ -413,7 +303,7 @@ export class HomepageBodyContent extends Component {
                     the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
                         of type and scrambled it to make a type specimen book</p>
                 <div class="research-invest-btn-section">
-                  <a class="waves-effect waves-light btn btn-large btn-orange m-r-15">Contact Advisor</a> 
+                  <a class="waves-effect waves-light btn btn-large btn-orange m-r-15">Contact Advisor</a>
                 </div>
               </div>
             </div>
@@ -434,37 +324,37 @@ function FeatureSection() {
   return (
     <div>
       <div class="container homepage-below-feature-section-list w-percent-90">
-        <div class="row Feature-section-title center-align">          
-            <h5>An investment model on clean, that you will be surprised</h5>          
+        <div class="row Feature-section-title center-align">
+          <h5>An investment model on clean, that you will be surprised</h5>
         </div>
         <div class="row">
           <div class="col s4 m2 lg2">
-            <div class="features-icons-images center-align wow fadeInUp" data-wow-delay="0.1s">
+            <div class="features-icons-images center-align wow fadeIn" data-wow-delay="0.1s">
               <img class="responsive-img" src={nocusmoney} />
             </div>
           </div>
           <div class="col s4 m2 lg2">
-            <div class="features-icons-images center-align wow fadeInUp" data-wow-delay="0.2s">
+            <div class="features-icons-images center-align wow fadeIn" data-wow-delay="0.2s">
               <img class="responsive-img" src={nocustomshare} />
             </div>
           </div>
           <div class="col s4 m2 lg2">
-            <div class="features-icons-images center-align wow fadeInUp" data-wow-delay="0.4s">
+            <div class="features-icons-images center-align wow fadeIn" data-wow-delay="0.3s">
               <img class="responsive-img" src={Group10} />
             </div>
           </div>
           <div class="col s4 m2 lg2">
-            <div class="features-icons-images center-align wow fadeInUp" data-wow-delay="0.6s">
+            <div class="features-icons-images center-align wow fadeIn" data-wow-delay="0.4s">
               <img class="responsive-img" src={Group11} />
             </div>
           </div>
           <div class="col s4 m2 lg2">
-            <div class="features-icons-images center-align wow fadeInUp" data-wow-delay="0.8s">
+            <div class="features-icons-images center-align wow fadeIn" data-wow-delay="0.5s">
               <img class="responsive-img" src={Group12} />
             </div>
           </div>
           <div class="col s4 m2 lg2">
-            <div class="features-icons-images center-align wow fadeInUp" data-wow-delay="1s">
+            <div class="features-icons-images center-align wow fadeIn" data-wow-delay="0.6s">
               <img class="responsive-img" src={Group13} />
             </div>
           </div>

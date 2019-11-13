@@ -27,7 +27,7 @@ export class testimonial extends Component {
                         </div>
                         <div class="row m-0">
                             <div class="col s12 m6">
-                                <div class="testimonials-cards wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="testimonials-cards wow fadeIn">
                                     <div class="Testimonial-profile">
                                         <div class="row valign-wrapper testimonial-section-profile-details">
                                             <div class="testimonial-pic-section">
@@ -52,7 +52,7 @@ export class testimonial extends Component {
                                 </div>
                             </div>
                             <div class="col s12 m6">
-                                <div class="testimonials-cards wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="testimonials-cards wow fadeIn">
                                     <div class="Testimonial-profile">
                                         <div class="row valign-wrapper testimonial-section-profile-details">
                                             <div class="testimonial-pic-section">
@@ -77,7 +77,7 @@ export class testimonial extends Component {
                                 </div>
                             </div>
                             <div class="col s12 m6">
-                                <div class="testimonials-cards wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="testimonials-cards wow fadeIn">
                                     <div class="Testimonial-profile">
                                         <div class="row valign-wrapper testimonial-section-profile-details">
                                             <div class="testimonial-pic-section">
@@ -102,7 +102,7 @@ export class testimonial extends Component {
                                 </div>
                             </div>
                             <div class="col s12 m6">
-                                <div class="testimonials-cards wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="testimonials-cards wow fadeIn">
                                     <div class="Testimonial-profile">
                                         <div class="row valign-wrapper testimonial-section-profile-details">
                                             <div class="testimonial-pic-section">
@@ -128,7 +128,7 @@ export class testimonial extends Component {
                             </div>
 
                             <div class="col s12 m6">
-                                <div class="testimonials-cards wow fadeInUp" data-wow-delay="0.7s">
+                                <div class="testimonials-cards wow fadeIn">
                                     <div class="Testimonial-profile">
                                         <div class="row valign-wrapper testimonial-section-profile-details">
                                             <div class="testimonial-pic-section">
@@ -153,7 +153,7 @@ export class testimonial extends Component {
                                 </div>
                             </div>
                             <div class="col s12 m6">
-                                <div class="testimonials-cards wow fadeInUp" data-wow-delay="0.8s">
+                                <div class="testimonials-cards wow fadeIn">
                                     <div class="Testimonial-profile">
                                         <div class="row valign-wrapper testimonial-section-profile-details">
                                             <div class="testimonial-pic-section">

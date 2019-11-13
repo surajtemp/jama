@@ -32,7 +32,7 @@ export class StartWealthCreation extends Component {
             <div class="row">
               <div class="col s3 m4 xl3 tab-card-margin-style mobile-ver-style">
                 <Link to="/BuildWealthPrudence">     <div class="left-menu-wealth-tab">
-                  <div class="Jama-tab-card-btn Build-wealth-tab-btn">
+                  <div class="Jama-tab-card-btn Build-wealth-tab-btn valign-wrapper">
                     <span>
                       <img src={bars} />
                       <span>
@@ -96,14 +96,14 @@ export class StartWealthCreation extends Component {
                         </div></Link>
                       </div>
                       <div class="col m4 s4 no-padding tab-card-margin-style">
-                        <div class="Jama-tab-card-btn jama-right-tabs valign-wrapper jama-right-tabs-active bg-white b-right">
+                      <a href="https://www.jama.co.in/app/accounts/login/" target="_blank"> <div class="Jama-tab-card-btn jama-right-tabs valign-wrapper jama-right-tabs-active bg-white b-right">
                           <span>
                             <img class="mobile-show-img" src={startimgblk} />
                           </span>
                           <h6 class="under-line-style">Get Started <span><i class="material-icons start-arrows">
                             arrow_right_alt
 </i> </span>  </h6>
-                        </div>
+                        </div> </a>
                       </div>
                     </div>
                   </div>

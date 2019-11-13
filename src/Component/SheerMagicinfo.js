@@ -15,7 +15,7 @@ import sheerimg from '../assets/sheerimg.svg';
 export class SheerMagicinfo extends Component {
     componentDidMount() {
         new WOW.WOW().init();
-    window.scrollTo(0, 0);
+        window.scrollTo(0, 0);
     }
     render() {
         return (
@@ -31,7 +31,12 @@ export class SheerMagicinfo extends Component {
 
                     <div class="container how-jama-works-content w-percent-90">
                         <div class="row valign-wrapper">
-                            <div class="col s12 m5">
+                            <div class="col s12 m12 push-m6">
+                                <div class="Aboutus-img-right right-align">
+                                    <img class=" responsive-img" src={sheerimg} />
+                                </div>
+                            </div>
+                            <div class="col s12 m12 pull-m6">
                                 <div class="about-philosophy-left-content">
                                     <h4>The sheer magic of compounding</h4>
                                     <p>Lorem ipsum dolor sit amet, quod deserunt intellegam nam in, cum no atqui definiebas. Ex nam
@@ -41,17 +46,11 @@ export class SheerMagicinfo extends Component {
                             deserunt intellegam nam cum no atqui definiebas. quod deserunt intellegam nam </p>
                                 </div>
                             </div>
-
-                            <div class="col s12 m7">
-                                <div class="Aboutus-img-right right-align">
-                                    <img class=" responsive-img" src={sheerimg} />
-                                </div>
-                            </div>
                         </div>
 
                     </div>
                 </div>
-                
+
                 <div class=" research-invest-section ">
                     <div class=" row ">
                         <div class=" col s12 m6 offset-m3 ">
@@ -63,7 +62,7 @@ export class SheerMagicinfo extends Component {
                                     took a galley
                                         of type and scrambled it to make a type specimen book</p>
                                 <div class=" research-invest-btn-section ">
-                                <a class="waves-effect waves-light btn btn-large btn-orange m-r-15">Contact Advisor</a> 
+                                    <a class="waves-effect waves-light btn btn-large btn-orange m-r-15">Contact Advisor</a>
                                 </div>
                             </div>
                         </div>

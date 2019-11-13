@@ -11,20 +11,22 @@ export class Header extends Component {
     render() {
         return (
             <div>
-                <nav class="row white header-bg-shadow" role="navigation">
+                <nav className="row white header-bg-shadow" role="navigation">
                     <div class="nav-wrapper container-fluid custom-width-header">
                         <Sidebar />
-                        <a class="navbar-brand">
-                            <Link to="/" > <img className="brand-logo-img" src={jamabrandlogo} /></Link>
+                        <a className="navbar-brand">
+                            <Link to="/"> <img className="brand-logo-img" src={jamabrandlogo} /></Link>
                         </a>
-                        <ul class="right hide-on-med-and-down nav-pills">
-                            <li><Link exact activeClassName="active" to="/Aboutus">About Us</Link></li>
-                            <li><Link activeClassName="active" to="/Values">Our Values</Link></li>
-                            <li><Link activeClassName="active" to="/testimonial">Testimonials</Link></li>
+                        <ul className="right hide-on-med-and-down nav-pills">
+                            <li><Link to="/Aboutus" class="active">About Us</Link></li>
+                            <li><Link to="/Values" class="active">Our Values</Link></li>
+                            <li><Link to="/testimonial" class="active">Testimonials</Link></li>
                             <li><Link to="#" class="start-btn">Get Started</Link></li>
                         </ul>
-                    </div>
+                    </div>                    
                 </nav>
+
+               
             </div>
         )
     }
